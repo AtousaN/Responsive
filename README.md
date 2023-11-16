@@ -24,9 +24,9 @@ https://codesandbox.io/s/responsive-images-challenge-forked-7v9tvt?file=/index.h
 https://codesandbox.io/s/responsive-navigation-challenge-forked-hnd2xz?file=/index.html
 *****
 https://codesandbox.io/s/advanced-bootstrap-homework-challenge-forked-dmczdn?file=/index.html
-
-
 *****
+https://codesandbox.io/s/media-queries-challenge-forked-hptxqg?file=/index.html
+
 
 
 
