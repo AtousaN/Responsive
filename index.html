@@ -2,92 +2,201 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Patricia is a front-end engineer based in Portugal."
+    />
+    <title>Front-end developer - Patricia Pereira</title>
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://kit.fontawesome.com/a146a30c45.js"
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Atousa Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Atousa Logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Atousa"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Atousa's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Atousa"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
-      <p>✋ Hello, I am</p>
+      <p>👋 Hello, I'm</p>
       <h1>Atousa Nasertork</h1>
       <h2 class="mb-5">Front-end developer based in Iran</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
-    <p class="text-center m-5">Best projects are featured below:</p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
             src="images/warfarin-prescription.JPG"
             class="img-fluid"
-            alt=""
+            alt="Warfarin Prescription App preview"
           />
         </div>
         <div class="col">
-          <div class="project-description">
+          <div class="project-desciption">
             <h2 class="mb-5">Warfarin Prescription App</h2>
             <p class="mb-5 text-muted">
               This application can predict your required Warfarin Dosage based
               on a few question about your health background and conditions.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col">
-          <div class="project-description">
+          <div class="project-desciption">
             <h2 class="mb-5">Today Weather App</h2>
             <p class="mb-5 text-muted">
               This application can present today's weather condition based on
               the city you search.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.JPG" class="img-fluid" alt="" />
+          <img
+            src="images/weather-app.JPG"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/weather-forecast.jpg" class="img-fluid" alt="" />
+          <img
+            src="images/weather-forecast.jpg"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
-          <div class="project-description">
+          <div class="project-desciption">
             <h2 class="mb-5">Weather Forecast App</h2>
             <p class="mb-5 text-muted">
               This application forecasts the weather condition of three
               following days based on the city you search.
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more </a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Atousa"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:at_nt.1995@yahoo.com"
+            class="email-link"
+            title="Email Atousa"
+          >
+            at_nt.1995@yahoo.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/AtousaN"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instragram.com/Atousa"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/Atousa"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Atousa Nasertork, and is
+          <a
+            href="https://github.com/AtousaN/Responsive/blob/portfolio-project"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
